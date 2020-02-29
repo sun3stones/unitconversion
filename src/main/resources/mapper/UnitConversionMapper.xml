@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lei.unitconversion.mapper.UnitConversionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.lei.unitconversion.entity.UnitConversion">
+        <id column="unit_id" property="unitId" />
+        <result column="unit_type" property="unitType" />
+        <result column="unit_name" property="unitName" />
+        <result column="unit_type_cn" property="unitTypeCn" />
+        <result column="unit_name_cn" property="unitNameCn" />
+        <result column="unit_coef" property="unitCoef" />
+        <result column="unit_formula" property="unitFormula" />
+        <result column="mid_flag" property="midFlag" />
+        <result column="created_time" property="createdTime" />
+        <result column="modify_time" property="modifyTime" />
+    </resultMap>
+
+</mapper>
